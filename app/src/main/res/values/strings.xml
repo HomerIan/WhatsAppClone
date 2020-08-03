@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">WhatsAppClone</string>
+
+    <!-- Change the following strings as required -->
+    <string name="back4app_server_url">https://parseapi.back4app.com/</string>
+    <string name="back4app_app_id">uskTFXf9dQh9lyZJ0SZR9UZRZ7AnSItnAyGHMdBt</string>
+    <string name="back4app_client_key">E8JSCZFEPhCoUI32X4KRqmAlKIfFWcE9h4RPiQ7X</string>
+
+    <!-- Sign Up Activity -->
+    <string name="app_logo_description">What\'s App</string>
+    <string name="sign_up_email">Please enter email...</string>
+    <string name="sign_up_username">Please enter username...</string>
+    <string name="sign_up_password">Please enter password...</string>
+    <string name="app_title">Whats App</string>
+    <string name="btn_signup">Sign Up</string>
+    <string name="login_label">Already have an Account?</string>
+    <string name="text_login">Log in.</string>
+
+    <!-- Log In Activity -->
+    <string name="btn_login">Log in</string>
+    <string name="signup_label">New to WhatsApp?</string>
+    <string name="text_signup">Sign up.</string>
+</resources>
