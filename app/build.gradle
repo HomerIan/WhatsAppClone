@@ -5,7 +5,7 @@ android {
 
     defaultConfig {
         applicationId "com.homerianreyes.whatsappclone"
-        minSdkVersion 19
+        minSdkVersion 21
         targetSdkVersion 29
         versionCode 1
         versionName "1.0"
@@ -31,6 +31,9 @@ dependencies {
 
     implementation "com.github.parse-community.Parse-SDK-Android:parse:1.25.0"
     implementation 'com.github.Shashank02051997:FancyToast-Android:0.1.6'
+    implementation "androidx.swiperefreshlayout:swiperefreshlayout:1.1.0"
+    implementation 'com.android.support:percent:29.0.0'
+
 
 }
 

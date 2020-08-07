@@ -13,12 +13,9 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 
-import com.parse.Parse;
 import com.parse.ParseException;
 import com.parse.ParseInstallation;
-import com.parse.ParseObject;
 import com.parse.ParseUser;
-import com.parse.SaveCallback;
 import com.parse.SignUpCallback;
 import com.shashank.sony.fancytoastlib.FancyToast;
 
@@ -35,7 +32,7 @@ public class SignUpActivity extends AppCompatActivity implements View.OnClickLis
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_sign_up);
 
         //Save the current Installation to Back4App
         ParseInstallation.getCurrentInstallation().saveInBackground();
@@ -63,7 +60,7 @@ public class SignUpActivity extends AppCompatActivity implements View.OnClickLis
         txtLogin.setOnClickListener(this);
 
         if(ParseUser.getCurrentUser() != null){
-            //transitionToSocialMediaActivity();
+            transitionToSocialMediaActivity();
         }
 
     }//onCreate

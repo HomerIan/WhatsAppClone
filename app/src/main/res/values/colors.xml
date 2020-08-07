@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!--main action bar-->
     <color name="colorPrimary">#141d26</color>
     <color name="colorPrimaryDark">#000</color>
     <color name="colorAccent">#03DAC5</color>
+
+    <!--social media action bar-->
+    <color name="primaryColor">#128c7e</color>
+    <color name="primaryDarkColor">#075e54</color>
+    <color name="navigationBarColor">#000</color>
 </resources>

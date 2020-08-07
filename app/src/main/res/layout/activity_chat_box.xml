@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ChatBoxActivity"
+    android:orientation="vertical">
+
+    <ListView
+        android:id="@+id/listViewChatBox"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="90"/>
+
+
+    <LinearLayout
+        android:id="@+id/linearLayoutChatBox"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        android:orientation="horizontal"
+        android:background="@drawable/chatbox_container">
+
+        <EditText
+            android:id="@+id/edtChat"
+            android:layout_width="0dp"
+            android:layout_weight="95"
+            android:layout_height="wrap_content"
+            android:hint="@string/send_message"
+            android:inputType="text"
+            android:autofillHints="no"
+            android:background="@drawable/chatbox_design"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_gravity="center_vertical"/>
+
+        <Button
+            android:id="@+id/btnSendChat"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="10"
+            android:background="@drawable/send_message_icon"
+            android:layout_gravity="center_vertical"/>
+
+    </LinearLayout>
+
+</TableLayout>

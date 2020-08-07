@@ -58,7 +58,7 @@ public class LogInActivity extends AppCompatActivity implements View.OnClickList
         txtSignUp.setOnClickListener(this);
 
         if(ParseUser.getCurrentUser() != null){
-            //transitionToSocialMediaActivity();
+            transitionToSocialMediaActivity();
         }
 
     }//onCreate

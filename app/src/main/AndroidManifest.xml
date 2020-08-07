@@ -10,7 +10,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".SocialMediaActivity"></activity>
+
+        <!-- android:screenOrientation="portrait" -->
+        <activity android:name=".ChatBoxActivity"
+            android:theme="@style/AppTheme1"/>
+        <activity
+            android:name=".SocialMediaActivity"
+            android:theme="@style/AppTheme1" />
         <activity android:name=".LogInActivity" />
         <activity android:name=".SignUpActivity">
             <intent-filter>
@@ -30,8 +36,8 @@
             android:name="com.parse.CLIENT_KEY"
             android:value="@string/back4app_client_key" />
     </application>
-    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-
     <uses-permission android:name="android.permission.INTERNET" />
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
 </manifest>
